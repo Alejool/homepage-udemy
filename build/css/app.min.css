@@ -598,7 +598,7 @@ input {
   --bs-nav-link-font-size: 1.2rem;
   --bs-nav-link-font-weight: bold;
   --bs-nav-link-color: #6a6f73;
-  --bs-nav-link-hover-color: #000;
+  --bs-nav-link-hover-color: #6a6f73;
   --bs-nav-link-disabled-color: var(--bs-secondary-color);
   display: flex;
   flex-wrap: wrap;
@@ -817,6 +817,10 @@ input {
   margin-right: 1.5rem !important;
 }
 
+.me-3 {
+  margin-right: 3rem !important;
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
@@ -831,6 +835,10 @@ input {
 
 .ms-1 {
   margin-left: 0.75rem !important;
+}
+
+.ms-3 {
+  margin-left: 3rem !important;
 }
 
 .p-2 {
@@ -888,6 +896,10 @@ input {
 
 .fw-bold {
   font-weight: 700 !important;
+}
+
+.text-end {
+  text-align: right !important;
 }
 
 .text-center {
@@ -991,6 +1003,9 @@ input {
 .header .search {
   border-radius: 2.5rem;
   padding: 0.5rem 1rem;
+}
+.header .link:hover {
+  color: #000;
 }
 
 .cursos .categoria-cursos {
@@ -1119,9 +1134,10 @@ input {
   }
 }
 .footer__enlace {
+  font-size: 1.4rem;
   color: rgb(248, 249, 251);
+  font-weight: bold;
 }
 .footer__enlace:hover {
-  color: rgb(248, 249, 251);
   text-decoration: underline;
 }
